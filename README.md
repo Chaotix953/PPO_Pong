@@ -44,8 +44,6 @@ source .venv/bin/activate  # Sur Windows: .venv\Scripts\activate
 
 # Installer les dépendances
 pip install -r requirements.txt
-ou
-uv sync
 ```
 
 ## Utilisation
