@@ -1,0 +1,13 @@
+gymnasium[atari]
+torch
+numpy
+ale-py
+pettingzoo[atari]
+multi-agent-ale-py
+supersuit
+stable-baselines3
+tensorboard
+matplotlib
+seaborn
+pandasopencv-python
+imageio
