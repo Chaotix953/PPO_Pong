@@ -24,7 +24,7 @@ Le projet inclut également des outils de visualisation et d'analyse des perform
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Cloner le projet
-git clone <votre-repo>
+git clone https://github.com/Chaotix953/PPO_Pong.git
 cd pong
 
 # Créer l'environnement virtuel et installer les dépendances
@@ -35,7 +35,7 @@ uv sync
 
 ```bash
 # Cloner le projet
-git clone <votre-repo>
+git clone https://github.com/Chaotix953/PPO_Pong.git
 cd pong
 
 # Créer un environnement virtuel
@@ -182,13 +182,6 @@ Le nombre d'environnements parallèles (`n_envs`) affecte:
 
 ### GPU
 Le projet utilise PyTorch et bénéficie d'un GPU CUDA si disponible. L'entraînement se fera automatiquement sur GPU si détecté.
-
-### Difficulté de l'adversaire
-Le paramètre `difficulty` (0-3) contrôle la force de l'adversaire IA du jeu Pong:
-- 0: Très facile
-- 1: Facile
-- 2: Moyen
-- 3: Difficile (par défaut)
 
 ## Licence
 
